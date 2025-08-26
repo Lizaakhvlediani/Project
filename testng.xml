@@ -1,0 +1,19 @@
+<suite name="Test Suite">
+    <listeners>
+        <listener class-name="org.example.utils.TestListener" />
+    </listeners>
+    <test name="Sample Test">
+        <classes>
+            <class name="org.example.tests.LoginTest" />
+            <class name="org.example.tests.SearchTest" />
+            <class name="org.example.tests.BranchesTest" />
+            <class name="org.example.tests.SkincareTest" />
+            <class name="org.example.tests.IciParisApiTest" />
+            <class name="org.example.tests.ApiTest" />
+            <class name="org.example.tests.LogoutTest" />
+
+
+        </classes>
+    </test>
+</suite>
+
